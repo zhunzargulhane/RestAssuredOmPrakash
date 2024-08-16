@@ -1,0 +1,40 @@
+Request method:	POST
+Request URI:	https://39283b30-ec66-4ae8-9f41-93d1f042e210.mock.pstmn.io/post
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-mock-match-request-body=true
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "firstName": "Joe",
+        "lastName": "Smith"
+    },
+    {
+        "firstName": "Sally",
+        "lastName": "Brown"
+    }
+]
+HTTP/1.1 200 OK
+Date: Sat, 30 Mar 2024 10:50:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 33
+Connection: keep-alive
+x-srv-trace: v=1;t=0dee50f9322a8a4e
+x-srv-span: v=1;s=075ce067f3bd497b
+Access-Control-Allow-Origin: *
+X-RateLimit-Limit: 120
+X-RateLimit-Remaining: 119
+X-RateLimit-Reset: 1711795887
+ETag: W/"21-SNBSpQP54bsIHHRBoEWAkpo6DJM"
+Vary: Accept-Encoding
+
+{
+    "msg": "jsonArraysuccess"
+}
